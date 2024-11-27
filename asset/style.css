@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/bvas-estadas-personal-use-only');
+
+.text-paragraf {
+    font-family: 'Bvas Estadas  Personal Use Only', sans-serif;
+
+}
+
+
+
+.marquee-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .marquee-item {
+    flex-shrink: 0;
+  }
+  
+  .marquee-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
